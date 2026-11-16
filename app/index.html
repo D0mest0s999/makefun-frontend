@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="A fast, light frontend for make.fun: live bounties, rewards, leaderboards and profiles, straight from the public API.">
+<title>make.fun bounties</title>
+<link rel="stylesheet" href="style.css">
+<script type="module" src="main.js"></script>
+</head>
+<body>
+<header class="site-head">
+  <a class="brand" href="#/">make.fun <span>bounties</span></a>
+  <nav class="site-nav">
+    <a href="#/">Bounty board</a>
+    <span class="updated-note" id="updated" title="When the data on this page last came back fresh from the API"></span>
+  </nav>
+</header>
+<main id="app" aria-live="polite"></main>
+<footer class="site-foot">
+  <p>Live data from the make.fun public API, revalidated as it changes. Rewards are the live pot: the prize plus entry fees paid in so far.</p>
+</footer>
+</body>
+</html>
